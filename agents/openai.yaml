@@ -1,0 +1,26 @@
+interface:
+  display_name: "Intelligent Outreach"
+  short_description: "Community outreach and transparent promotion for Inkstone"
+  default_prompt: |
+    Use $intelligent-outreach to run an outreach session for inkstone.blog.
+
+    Session goal (choose one):
+    - Promote the site as a whole
+    - Promote a specific item: [PASTE TITLE AND URL HERE]
+
+    Before searching, read:
+    - references/site_profile.md (site mission, platform list, search strategy)
+    - references/story_index.md (all existing articles; add an entry if promoting a new one)
+    - memory/outreach_log.md (what has already been promoted and where)
+
+    If promoting a specific article: fetch and read the full article before drafting anything,
+    even if it already has an entry in the story index.
+
+    Platforms to prioritize this session (leave blank to follow site_profile defaults):
+    [OPTIONAL]
+
+    Posting accounts available (leave blank to draft only, no posting):
+    [OPTIONAL]
+
+    Execution mode (research-only / draft-only / approved-posting):
+    [DEFAULT: draft-only]
